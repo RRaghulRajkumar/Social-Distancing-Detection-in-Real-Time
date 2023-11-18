@@ -93,32 +93,7 @@ set ```Thread = True``` in the config.
 - Similarly ```MIN_DISTANCE = 50``` implies the minimum distance between 2 people. If they fell under 50 px (which is closer than 80), we treat it as a more 'serious' violation (red).
 - Anything above 80 px is considered as a safe distance and thus, 'no' violation (green).
 
-## References
-***Main:***
-- YOLOv3 paper: https://arxiv.org/pdf/1804.02767.pdf
-- YOLO original paper: https://arxiv.org/abs/1506.02640
-- YOLO TensorFlow implementation (darkflow): https://github.com/thtrieu/darkflow
 
-***Optional:***
-- More theory: https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
-- Other trained model weights from official doc: https://pjreddie.com/darknet/yolo/
-
----
-
-## Thanks for the read & have fun!
-
-> To get started/contribute quickly (optional) ...
-
-- **Option 1**
-    - 🍴 Fork this repo and pull request!
-
-- **Option 2**
-    - 👯 Clone this repo:
-    ```
-    $ git clone https://github.com/saimj7/Social-Distancing-Detection-in-Real-Time.git
-    ```
-
-- **Roll it!**
 
 ---
 
