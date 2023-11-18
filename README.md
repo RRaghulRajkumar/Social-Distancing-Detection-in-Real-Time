@@ -1,9 +1,6 @@
 # Social-Distancing-in-Real-Time
 Social distancing in Real-Time using live video stream/IP camera in OpenCV.
 
-> This is an improvement/modification to (https://www.pyimagesearch.com/2020/06/01/opencv-social-distancing-detector/).
-
-> Please refer to the added [Features](#features).
 
 Output       |  Output
 :-------------------------:|:-------------------------:
@@ -15,12 +12,6 @@ Output       |  Output
 - Acts as a measure to tackle COVID-19.
 
 ---
-
-## Table of Contents
-* [Simple Theory](#simple-theory)
-* [Running Inference](#running-inference)
-* [Features](#features)
-* [References](#references)
 
 ## Simple Theory
 **Object detection:**
@@ -41,12 +32,6 @@ Output       |  Output
 pip install -r requirements.txt
 ```
 - If you would like to use GPU, set ```USE_GPU = True``` in the config. options at 'mylib/config.py'.
-
-- Note that you need to build OpenCV with CUDA (for an NVIDIA GPU) support first:
-
-> Click [**here**](https://jamesbowley.co.uk/accelerate-opencv-4-2-0-build-with-cuda-and-python-bindings/) for build instructions on Windows.
-
-> This tutorial also might help. Click [**here**](https://www.youtube.com/watch?v=TT3_dlPL4vo&list=WL&index=108&t=0s).
 
 - Download the weights file from [**here**](https://drive.google.com/file/d/1O2zmGIIHLX8SGs24W7mjRyFKvE_CSY8n/view?usp=sharing) and place it in the 'yolo' folder.
 
@@ -93,8 +78,3 @@ set ```Thread = True``` in the config.
 - Similarly ```MIN_DISTANCE = 50``` implies the minimum distance between 2 people. If they fell under 50 px (which is closer than 80), we treat it as a more 'serious' violation (red).
 - Anything above 80 px is considered as a safe distance and thus, 'no' violation (green).
 
-
-
----
-
-saimj7/ 02-11-2020 © <a href="http://saimj7.github.io" target="_blank">Sai_Mj</a>.
