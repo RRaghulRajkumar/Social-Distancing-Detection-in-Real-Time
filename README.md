@@ -15,7 +15,7 @@ Output       |  Output
 
 ## Simple Theory
 **Object detection:**
-- We will be using YOLOv3, trained on COCO dataset for object detection.
+- We will be using YOLOv3, Trained on COCO dataset for object detection.
 - In general, single-stage detectors like YOLO tend to be less accurate than two-stage detectors (R-CNN) but are significantly faster.
 - YOLO treats object detection as a regression problem, taking a given input image and simultaneously learning bounding box coordinates and corresponding class label probabilities.
 - It is used to return the person prediction probability, bounding box coordinates for the detection, and the centroid of the person.
